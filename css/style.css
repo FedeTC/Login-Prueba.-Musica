@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #3a3e42;
+}
+h1 {
+    margin-top: 130px;
+    margin-bottom: 1;
+    font-size: 3.5rem;
+}
+.subtitle{
+    font-size: 1rem;
+    margin-bottom: 90px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 851px;
+}
+
+.section {
+    width: 400px;
+    height: 700px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #353535;
+    box-shadow: 10px 10px 20px -10px black;
+}
+.background-1 {
+    background-image: url(../assets/foto-2.jpg.jpg);
+    
+    background-size: cover;
+    
+    
+}
+
+.background-2 {
+    background: url(../assets/foto-1.jpg.jpg) right bottom;
+    
+    background-size: cover;
+   
+}
+
+.button, .input {
+    display: block;
+    width: 300px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    border: 0;
+    color: white;
+}
+
+.button {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+.white-button{
+    background-color: white;
+    color:rgb(23, 137, 202);
+}
+
+.blue-button {
+    background-color: #008fee;
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.input {
+    background-color: inherit;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-email {
+    margin-bottom: 70px;
+}
+
+.input-text {
+    margin-top: 70px;
+}
+
+.header {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.fa-music{
+    font-size: 3rem;
+    margin-left: 5px;
+}
+
+.fa-chevron-right {
+    position: absolute;
+    right: 20px;
+    font-size: 0.9em;
+}
